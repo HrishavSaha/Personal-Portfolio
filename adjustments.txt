@@ -1,0 +1,93 @@
+## How your two buttons should work (important)
+
+### 🔹 Start a project → structured modal
+
+This is your **serious** CTA.
+
+**Fields (keep it tight):**
+
+1. Name
+2. Email
+3. What are you building? (textarea)
+4. Timeline (dropdown)
+5. Budget range (dropdown)
+
+### 🔹 Send me a message → lightweight modal
+
+This is your **casual** CTA.
+
+**Fields:**
+
+1. Name
+2. Email
+3. Message
+
+No budgets. No timelines.
+
+---
+
+## UX details that make it feel premium
+
+### 1. Different modal personalities
+
+Even if they reuse components, they should *feel different*.
+
+**Start a project modal**
+
+* Title: “Start a project”
+* Subtitle: “Tell me a bit about what you’re building.”
+
+**Message modal**
+
+* Title: “Send me a message”
+* Subtitle: “Have a question or idea? Let’s talk.”
+
+---
+
+### 2. Background treatment
+
+When modal opens:
+
+* Blur + darken background slightly
+* Lock scroll
+* Subtle scale-down of page (optional)
+
+This reinforces focus.
+
+---
+
+### 3. Close behavior
+
+* Click outside → closes
+* Escape key → closes
+* Visible ✕ button
+
+No friction.
+
+---
+
+## Visual style suggestions (match your site)
+
+* Same card style as pricing
+* Rounded corners (same radius)
+* Border: white/10
+* Backdrop blur
+* Slight top glow (you already do this well)
+
+This makes the modal feel **native**, not bolted on.
+
+---
+
+## Implementation approach (no heavy JS)
+
+You can do this with:
+
+* Vanilla JS + Tailwind
+* Or Alpine.js (perfect for this)
+* Or even CSS + checkbox hack (but JS is cleaner)
+
+Submission options:
+
+* **Netlify Forms** (since you’re deploying there)
+* Formspree
+* Email backend later
