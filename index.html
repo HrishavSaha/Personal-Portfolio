@@ -15,26 +15,26 @@
 <body class="w-full bg-neutral-950">
     <div x-data="modalController()">
 
-    <header class="w-full fixed justify-start items-center px-80 py-3 bg-neutral-950 border-b border-teal-900 select-none">
+    <header class="w-full fixed flex justify-center lg:justify-start items-center md:px-40 xl:px-60 2xl:px-80 py-3 bg-neutral-950 border-b border-teal-900 select-none">
         <h1 class="space-grotesk text-4xl text-zinc-100">HRISHAV SAHA</h1>
     </header>
 
-    <main class="flex flex-col gap-24 mx-70 pt-36 border-x-2 border-dashed border-teal-900">
+    <main class="flex flex-col gap-12 lg:gap-24 mx-2 md:mx-30 xl:mx-50 2xl:mx-70 pt-30 lg:pt-36 border-x-2 border-dashed border-teal-900">
 
         <!-- Hero -->
         <section class="w-full flex flex-col gap-12">
 
             <!-- Hero Header -->
-            <h2 class="space-grotesk pr-10 text-6xl text-zinc-200 pl-10">I build modern SaaS landing pages that convert — fast.</h2>
+            <h2 class="space-grotesk px-4 lg:px-10 text-2xl lg:text-6xl text-zinc-200">I build modern SaaS landing pages that convert — fast.</h2>
 
             <!-- Hero Content -->
-            <div class="flex gap-12 border-y-2 border-dashed border-teal-900">
+            <div class="flex flex-col lg:flex-row lg:gap-12 border-y-2 border-dashed border-teal-900">
 
                 <!-- Left Flex -->
-                <div class="w-1/2 flex flex-col gap-6 pl-10 py-5">
+                <div class="lg:w-1/2 flex flex-col gap-6 pl-4 pr-4 lg:pl-10 lg:pr-0 py-5">
 
                     <!-- Text -->
-                    <p class="arimo text-xl text-zinc-400 leading-relaxed">
+                    <p class="arimo text-md lg:text-xl text-zinc-400 leading-relaxed">
                         I design and develop clean, responsive landing pages inspired by top SaaS products.
                         Built with Tailwind CSS and delivered in days, not weeks.
                     </p>
@@ -51,17 +51,17 @@
                 </div>
 
                 <!-- Right Flex -->
-                <div class="w-1/2 grid grid-rows-5 grid-cols-5 border-l-2 border-dashed border-teal-900">
+                <div class="lg:w-1/2 grid grid-rows-5 grid-cols-5 border-l-2 border-t-2 lg:border-t-0 border-dashed border-teal-900">
                     <div class="text-white"></div>
                     <div class="border-x-2 border-dashed border-teal-900 text-white col-span-3"></div>
                     <div class="text-white col-start-5"></div>
                     <div class="border-y-2 border-dashed border-teal-900 text-white row-span-3 row-start-2"></div>
 
                     <div class="border-2 border-dashed border-teal-900 text-white col-span-3 row-span-3 row-start-2 grid grid-rows-2 grid-cols-2">
-                        <div class="flex justify-center items-center space-grotesk text-zinc-300 text-xl border-b-2 border-r-2 border-dashed border-teal-900 inset-shadow-[0px_0px_20px_10px] inset-shadow-teal-600/0 hover:inset-shadow-teal-600/50 transition-all duration-200">Clean</div>
-                        <div class="flex justify-center items-center space-grotesk text-zinc-300 text-xl border-b-2 border-dashed border-teal-900 inset-shadow-[0px_0px_20px_10px] inset-shadow-teal-600/0 hover:inset-shadow-teal-600/50 transition-all duration-200">Modern</div>
-                        <div class="flex justify-center items-center space-grotesk text-zinc-300 text-xl border-r-2 border-dashed border-teal-900 inset-shadow-[0px_0px_20px_10px] inset-shadow-teal-600/0 hover:inset-shadow-teal-600/50 transition-all duration-200">Fast</div>
-                        <div class="flex justify-center items-center space-grotesk text-zinc-300 text-xl inset-shadow-[0px_0px_20px_10px] inset-shadow-teal-600/0 hover:inset-shadow-teal-600/50 transition-all duration-200">Polished</div>
+                        <div class="flex justify-center items-center space-grotesk text-zinc-300 text-md lg:text-xl border-b-2 border-r-2 border-dashed border-teal-900 inset-shadow-[0px_0px_20px_10px] inset-shadow-teal-600/0 hover:inset-shadow-teal-600/50 transition-all duration-200">Clean</div>
+                        <div class="flex justify-center items-center space-grotesk text-zinc-300 text-md lg:text-xl border-b-2 border-dashed border-teal-900 inset-shadow-[0px_0px_20px_10px] inset-shadow-teal-600/0 hover:inset-shadow-teal-600/50 transition-all duration-200">Modern</div>
+                        <div class="flex justify-center items-center space-grotesk text-zinc-300 text-md lg:text-xl border-r-2 border-dashed border-teal-900 inset-shadow-[0px_0px_20px_10px] inset-shadow-teal-600/0 hover:inset-shadow-teal-600/50 transition-all duration-200">Fast</div>
+                        <div class="flex justify-center items-center space-grotesk text-zinc-300 text-md lg:text-xl inset-shadow-[0px_0px_20px_10px] inset-shadow-teal-600/0 hover:inset-shadow-teal-600/50 transition-all duration-200">Polished</div>
                     </div>
 
                     <div class="border-y-2 border-dashed border-teal-900 text-white row-span-3 col-start-5 row-start-2"></div>
@@ -79,15 +79,15 @@
 
             <!-- Header -->
             <div class="w-full flex flex-col gap-6">
-                <h2 class="space-grotesk text-5xl text-zinc-200 pl-10">Selected Work</h2>
-                <p class="arimo text-xl text-zinc-400 pl-10">Design studies & concept builds inspired by modern SaaS products.</p>
+                <h2 class="space-grotesk text-2xl lg:text-5xl text-zinc-200 px-4 lg:pl-10">Selected Work</h2>
+                <p class="arimo text-md lg:text-xl text-zinc-400 px-4 lg:pl-10">Design studies & concept builds inspired by modern SaaS products.</p>
             </div>
 
             <!-- Work Content -->
-            <div class="w-full grid grid-cols-2">
+            <div class="w-full grid grid-cols-1 lg:grid-cols-2">
 
                 <!-- Parabolic -->
-                <div class="flex flex-col m-12 border-2 border-dashed border-teal-900 divide-y-2 divide-dashed divide-teal-900 shadow-[0px_0px_20px_10px] shadow-teal-600/0 hover:shadow-teal-600/50 transition-all duration-200">
+                <div class="flex flex-col m-6 lg:m-12 border-2 border-dashed border-teal-900 divide-y-2 divide-dashed divide-teal-900 shadow-[0px_0px_20px_10px] shadow-teal-600/0 hover:shadow-teal-600/50 transition-all duration-200">
                     <a href="https://parabolic-landing-page-d-3.netlify.app/" target="_blank" rel="noopener noreferrer"><img src="images/parabolic.jpg" class="w-full object-cover" alt="Screenshot of Parabolic website"></a>
                     <div class="flex flex-col h-full p-2 gap-1">
                         <h3 class="arimo text-zinc-300 text-lg">Parabolic - Landing Page Concept</h3>
@@ -100,7 +100,7 @@
                 </div>
 
                 <!-- Sharper -->
-                <div class="flex flex-col m-12 border-2 border-dashed border-teal-900 divide-y-2 divide-dashed divide-teal-900 shadow-[0px_0px_20px_10px] shadow-teal-600/0 hover:shadow-teal-600/50 transition-all duration-200">
+                <div class="flex flex-col m-6 lg:m-12 border-2 border-dashed border-teal-900 divide-y-2 divide-dashed divide-teal-900 shadow-[0px_0px_20px_10px] shadow-teal-600/0 hover:shadow-teal-600/50 transition-all duration-200">
                     <a href="https://sharper-landing-d-2.netlify.app/" target="_blank" rel="noopener noreferrer"><img src="images/sharper.jpg" class="w-full object-cover" alt="Screenshot of Parabolic website"></a>
                     <div class="flex flex-col h-full p-2 gap-1">
                         <h3 class="arimo text-zinc-300 text-lg">Sharper - Product Page Concept</h3>
@@ -120,10 +120,10 @@
         <section class="w-full flex flex-col gap-6 border-b-2 border-dashed border-teal-900">
 
             <!-- Header -->
-            <h2 class="space-grotesk pr-10 text-5xl text-zinc-200 pl-10">How it works</h2>
+            <h2 class="space-grotesk px-4 lg:px-10 text-2xl lg:text-5xl text-zinc-200">How it works</h2>
 
             <!-- Main Text -->
-            <div class="flex justify-center items-center p-12 gap-20">
+            <div class="flex flex-col lg:flex-row justify-center items-center p-12 gap-10 2xl:gap-20">
 
                 <!-- Step 1 -->
                 <div class="flex flex-col p-3 gap-2 border-2 border-dashed border-teal-900 shadow-[0px_0px_20px_10px] shadow-teal-600/0 hover:shadow-teal-600/50 transition-all duration-200">
@@ -134,7 +134,12 @@
                     <p class="arimo text-zinc-400 text-sm">I learn what you’re building, who it’s for, and what the landing page needs to achieve.</p>
                 </div>
 
-                <i class="fas fa-right-long fa-2xl text-teal-600"></i>
+                <div class="hidden lg:block">
+                    <i class="fas fa-right-long fa-2xl text-teal-600"></i>
+                </div>
+                <div class="block lg:hidden">
+                    <i class="fas fa-down-long fa-2xl text-teal-600"></i>
+                </div>
 
                 <!-- Step 2 -->
                 <div class="flex flex-col p-3 gap-2 border-2 border-dashed border-teal-900 shadow-[0px_0px_20px_10px] shadow-teal-600/0 hover:shadow-teal-600/50 transition-all duration-200">
@@ -145,7 +150,12 @@
                     <p class="arimo text-zinc-400 text-sm">I design and develop a responsive landing page using Tailwind CSS with modern UI patterns.</p>
                 </div>
 
-                <i class="fas fa-right-long fa-2xl text-teal-600"></i>
+                <div class="hidden lg:block">
+                    <i class="fas fa-right-long fa-2xl text-teal-600"></i>
+                </div>
+                <div class="block lg:hidden">
+                    <i class="fas fa-down-long fa-2xl text-teal-600"></i>
+                </div>
 
                 <!-- Step 3 -->
                 <div class="flex flex-col p-3 gap-2 border-2 border-dashed border-teal-900 shadow-[0px_0px_20px_10px] shadow-teal-600/0 hover:shadow-teal-600/50 transition-all duration-200">
@@ -161,19 +171,19 @@
         </section>
 
         <!-- Pricing -->
-        <section class="w-full flex justify-between pb-12 gap-10 border-b-2 border-dashed border-teal-900">
+        <section class="w-full flex flex-col lg:flex-row justify-between pb-12 gap-10 border-b-2 border-dashed border-teal-900">
 
             <!-- Header -->
-            <div class="flex flex-col gap-12 pl-10">
-                <h2 class="space-grotesk text-5xl text-zinc-200">Simple, transparent pricing</h2>
-                <div class="flex flex-col gap-2 arimo text-xl text-zinc-400">
+            <div class="flex flex-col gap-6 lg:gap-12 px-4 lg:pl-10">
+                <h2 class="space-grotesk text-2xl lg:text-5xl text-zinc-200">Simple, transparent pricing</h2>
+                <div class="flex flex-col gap-1 lg:gap-2 arimo text-md lg:text-xl text-zinc-400">
                     <p>No long-term contracts.</p>
                     <p>No hidden costs.</p>
                     <p>You own the code.</p>
                 </div>
                 <div class="h-full"></div>
-                <div class="flex flex-col gap-1 arimo text-lg text-zinc-400 justify-center">
-                    <p class="space-grotesk text-xl text-zinc-400">What you <span class="text-red-400">don't</span> have to pay for:</p>
+                <div class="flex flex-col lg:gap-1 arimo text-sm lg:text-lg text-zinc-400 justify-center">
+                    <p class="space-grotesk text-md lg:text-xl text-zinc-400">What you <span class="text-red-400">don't</span> have to pay for:</p>
                     <p><i class="fa-solid fa-xmark fa-md text-red-400"></i> Monthly retainers</p>
                     <p><i class="fa-solid fa-xmark fa-md text-red-400"></i> Overengineering</p>
                     <p><i class="fa-solid fa-xmark fa-md text-red-400"></i> Bloated frameworks</p>
@@ -181,40 +191,40 @@
             </div>
 
             <!-- Price Card -->
-            <div class="flex flex-col p-3 gap-6 mr-10 border-2 border-dashed border-teal-800 shadow-[0px_0px_20px_10px] shadow-teal-600/0 shadow-teal-600/20 transition-all duration-200">
-                <h3 class="arimo text-zinc-300 text-2xl">Landing Page Build</h3>
+            <div class="flex flex-col p-3 gap-2 lg:gap-6 mx-4 lg:mr-10 border-2 border-dashed border-teal-800 shadow-[0px_0px_20px_10px] shadow-teal-600/0 shadow-teal-600/20 transition-all duration-200">
+                <h3 class="arimo text-zinc-300 text-xl lg:text-2xl">Landing Page Build</h3>
                 <div class="flex flex-col gap-1">
-                    <p class="arimo text-zinc-400 text-lg">Includes:</p>
-                    <p class="arimo text-zinc-400 text-lg"><i class="fas fa-check fa-md text-lime-500"></i> 1 modern SaaS landing page</p>
-                    <p class="arimo text-zinc-400 text-lg"><i class="fas fa-check fa-md text-lime-500"></i> Fully responsive (mobile + desktop)</p>
-                    <p class="arimo text-zinc-400 text-lg"><i class="fas fa-check fa-md text-lime-500"></i> Built with Tailwind CSS</p>
-                    <p class="arimo text-zinc-400 text-lg"><i class="fas fa-check fa-md text-lime-500"></i> Deployed on Netlify</p>
-                    <p class="arimo text-zinc-400 text-lg"><i class="fas fa-check fa-md text-lime-500"></i> 1–2 revisions</p>
-                    <p class="arimo text-zinc-400 text-lg"><i class="fas fa-check fa-md text-lime-500"></i> Delivered in ~5 days</p>
+                    <p class="arimo text-zinc-400 text-md lg:text-lg">Includes:</p>
+                    <p class="arimo text-zinc-400 text-md lg:text-lg"><i class="fas fa-check fa-md text-lime-500"></i> 1 modern SaaS landing page</p>
+                    <p class="arimo text-zinc-400 text-md lg:text-lg"><i class="fas fa-check fa-md text-lime-500"></i> Fully responsive (mobile + desktop)</p>
+                    <p class="arimo text-zinc-400 text-md lg:text-lg"><i class="fas fa-check fa-md text-lime-500"></i> Built with Tailwind CSS</p>
+                    <p class="arimo text-zinc-400 text-md lg:text-lg"><i class="fas fa-check fa-md text-lime-500"></i> Deployed on Netlify</p>
+                    <p class="arimo text-zinc-400 text-md lg:text-lg"><i class="fas fa-check fa-md text-lime-500"></i> 1–2 revisions</p>
+                    <p class="arimo text-zinc-400 text-md lg:text-lg"><i class="fas fa-check fa-md text-lime-500"></i> Delivered in ~5 days</p>
                 </div>
-                <p class="arimo text-zinc-400 text-lg">Starting at <i class="fas fa-indian-rupee-sign fa-sm"></i>2,999</p>
-                <button @click="openProjectModal()" class="cursor-pointer flex justify-center items-center py-2 arimo text-teal-300/50 hover:text-teal-300 text-lg bg-zinc-100/15 bg-clip-padding rounded-md border-2 border-dashed border-teal-500/60 hover:border-teal-500 transition-all duration-200">Get started</button>
+                <p class="arimo text-zinc-400 text-md lg:text-lg">Starting at <i class="fas fa-indian-rupee-sign fa-sm"></i>2,999</p>
+                <button @click="openProjectModal()" class="cursor-pointer flex justify-center items-center py-2 arimo text-teal-300/50 hover:text-teal-300 text-md lg:text-lg bg-zinc-100/15 bg-clip-padding rounded-md border-2 border-dashed border-teal-500/60 hover:border-teal-500 transition-all duration-200">Get started</button>
             </div>
             
         </section>
 
         <!-- Final CTA -->
-        <section class="w-full flex justify-between px-10 pb-12 gap-10">
+        <section class="w-full flex flex-col lg:flex-row justify-between px-4 lg:px-10 pb-12 gap-10">
 
             <!-- Header -->
             <div class="flex flex-col gap-6">
-                <h2 class="space-grotesk text-5xl text-zinc-200">Have a product to launch or improve?</h2>
-                <p class="arimo text-xl text-zinc-400">Let’s build a landing page that looks great and works.</p>
+                <h2 class="space-grotesk text-2xl lg:text-5xl text-zinc-200">Have a product to launch or improve?</h2>
+                <p class="arimo text-md lg:text-xl text-zinc-400">Let’s build a landing page that looks great and works.</p>
             </div>
 
             <!-- CTA Button -->
-            <button @click="openMessageModal()" class="cursor-pointer flex justify-center items-center px-5 py-3 m-auto arimo text-teal-700 hover:text-teal-400 text-lg bg-zinc-900 bg-clip-padding rounded-md border-2 border-dashed border-teal-900 hover:border-teal-700 shadow-[0px_0px_20px_10px] shadow-teal-600/0 hover:shadow-teal-600/50 transition-all duration-200">Send me a message</button>
+            <button @click="openMessageModal()" class="cursor-pointer flex justify-center items-center px-5 py-3 m-auto arimo text-teal-700 hover:text-teal-400 text-md lg:text-lg bg-zinc-900 bg-clip-padding rounded-md border-2 border-dashed border-teal-900 hover:border-teal-700 shadow-[0px_0px_20px_10px] shadow-teal-600/0 hover:shadow-teal-600/50 transition-all duration-200">Send me a message</button>
             
         </section>
 
     </main>
 
-    <footer class="w-full flex flex-col justify-between px-80 py-3 bg-neutral-950 border-t border-teal-900 select-none">
+    <footer class="w-full flex flex-col justify-between px-6 md:px-40 xl:px-60 2xl:px-80 py-3 bg-neutral-950 border-t border-teal-900 select-none">
         <p class="arimo text-lg text-zinc-200">Building fast, modern landing pages for early-stage products.</p>
         <p class="arimo text-md text-zinc-400">Email: <a href="mailto:hrishav.saha@gmail.com" class="text-zinc-300" style="text-decoration: none;">hrishav.saha@gmail.com</a></p>
         <p class="arimo text-md text-zinc-400">Built with Tailwind CSS</p>
